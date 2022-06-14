@@ -6,36 +6,52 @@
     <meta name="kaywords" content="Professional Web Designer , Professional Web Developer , Personal Portfolio"/>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&family=Alegreya:wght@500&family=Inspiration&family=Lobster&family=Source+Sans+Pro:wght@600;900&family=Yeseva+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fc106cc491.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+
+<!-----------------------------------Navbar----------------------------------->
+<nav id="navbar" class="navbar navbar-expand-lg bg-nav fixed-top p-3">
+    <div class="container">
+        <a id="logo" class="navbar-brand text-danger fw-bold fs-4">Fokir</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fs-4"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 w-75 ms-auto d-flex justify-content-between align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#porfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- home section -->
     <div class="home" id="home">
         <div class="layer">
-            <div class="container">
-                <div class="header">
-                    <div class="logo float-left">
-                        <a href="#">Fokir</a>
-                    </div>
-                    <div class="nav-bar float-left">
-                        <div class="inner">
-                            <ul>
-                                <li class=" float-left item-list"><a href="#home">Home</a></li>
-                                <li class="float-left"><a href="#about">About</a></li>
-                                <li class="float-left"><a href="#service">Services</a></li>
-                                <li class="float-left"><a href="#portfolio">Portfolio</a></li>
-                                <li class="float-left"><a href="#testimonial">Testimonial</a></li>
-                                <li class="float-left"><a href="#blog">Blog</a></li>
-                                <li class="float-left"><a href="#contact">Contact</a></li>
-                                <li class="clear-fix"></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="clear-fix"></div>
-                </div>
-            </div>
-
             <div class="text">
                 <h3>Hello i'm</h2>
                     <h1>ALEX SMITH</h1>
@@ -43,6 +59,8 @@
             </div>
         </div>
     </div>
+
+    <!-- about section -->
     <div class="about" id="about">
         <div class="container">
             <div class="about-profile float-left">
@@ -124,6 +142,8 @@
         </div>
     </div>
 
+
+    <!-- services section -->
     <div class="service" id="service">
         <h2>Our Services</h2>
         <div class="container">
@@ -154,6 +174,8 @@
             <div class="clear-fix"></div>
         </div>
     </div>
+
+    <!-- portfolio section -->
     <div class="portfolio" id="portfolio">
 
         <div class="container">
@@ -223,6 +245,8 @@
 
         </div>
     </div>
+
+    <!-- activity section -->
     <div class="activity" id="activity">
         <div class="container">
 
@@ -251,6 +275,7 @@
         </div>
     </div>
 
+    <!-- testimonial section -->
     <div class="testimonial" id="testimonial">
         <div class="container">
             <h2>Client's Feedback</h2>
@@ -311,6 +336,7 @@
         </div>
     </div>
 
+    <!-- blog section -->
     <div class="blog" id="blog">
         <h2>Our Blog</h2>
         <div class="container">
@@ -351,6 +377,7 @@
         </div>
     </div>
 
+    <!-- contact section -->
     <div class="contact" id="contact">
         <h2>Contact Us</h2>
         <div class="container">
@@ -399,10 +426,13 @@
                 <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
 
-            <p>Copy Right 2018 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
+            <p>Copy Right 2022 © By <a href="#">Theme-fair</a> All Rights Reserved</p>
 
         </div>
     </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
